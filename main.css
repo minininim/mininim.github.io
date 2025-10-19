@@ -1,0 +1,124 @@
+nav{
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main p {
+    text-align: center;
+    opacity: 0.7;
+}
+
+footer p {
+    text-align: center;   
+    margin: 0; 
+}
+
+body {
+    background-color: gainsboro;
+    margin: 0;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, tr {
+    text-align: center;
+}
+
+header{
+    margin: 0;
+    background-color: white;
+    height: 100px;
+}
+
+.Playerimg{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;    
+}
+
+.Playerimg img{
+    margin: -75px 0px 0px -75px;
+}
+
+
+.Logo{
+    padding-left: 20%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.Logo img{
+    display: inline;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+}
+
+.Logo h3{
+    display: inline;
+    vertical-align: middle;
+}
+
+.BossName{
+    font-weight: bold;
+}
+
+.button{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color:#ccc;
+}
+
+.modal{
+    position: absolute;
+    position: fixed;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+
+    width: 500px;
+    height: 500px;
+
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
